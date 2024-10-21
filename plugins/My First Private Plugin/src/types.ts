@@ -3,7 +3,9 @@
  * Add here all your typescript types/enum/interfaces
  */
 export interface Settings {
-  [key: string]: unknown;
+  domain?: string;
+  clientID?: string;
+  useApi: boolean;
 }
 
 export type Example = "Example";
