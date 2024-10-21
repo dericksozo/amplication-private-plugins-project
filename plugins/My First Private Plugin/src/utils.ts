@@ -17,5 +17,7 @@ export const getPluginSettings = (
     ...userSettings,
   };
 
+  console.log("What are the settings?", settings);
+  
   return settings;
 };
